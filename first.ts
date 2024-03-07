@@ -33,26 +33,29 @@ console.log("Name:Mahad Yasir")
 console.log("Date:25-02-2024")
 console.log("------------------11------------------")
 let A_name:string[]=["Ali","Ahmed","Raza"]
-console.log(A_name[0])
-console.log(A_name[1])
-console.log(A_name[2])
+for(var i=0;i<A_name.length;i++)
+{console.log(A_name[0])
+}
 console.log("------------------12------------------")
 console.log("Good luck:",A_name[0])
 console.log("Have a safe journey",A_name[1])
 console.log("Nice to met you",A_name[2])
 console.log("------------------13------------------")
 let cars:string[]=["Honda","Toyota","BMW","Audii"]
-console.log("I would like to own a",cars[0],"car")
-console.log("I would like to own a",cars[1],"car")
-console.log("I would like to own a",cars[2],"car")
-console.log("I would like to own a",cars[3],"car")
+for(var i=0;i<cars.length;i++){
+    console.log("I would like to own a",cars[i],"car")
+}
 console.log("------------------14------------------")
-console.log(A_name[0],"join us for dinner, please!")
-console.log(A_name[1],"join us for dinner, please!")
-console.log(A_name[2],"join us for dinner, please!")
+for(var i=0;i<A_name.length;i++){
+console.log(A_name[i],"join us for dinner, please!")
+}
 console.log("------------------15------------------")
-
-
+console.log(A_name[2]+" is not coming and update list is:")
+A_name[2]="Irfan"
+for(var i=0;i<A_name.length;i++){
+    console.log(A_name[i],"join us for dinner, please!")
+    }
+console.log("------------------16------------------")
 
 
 
