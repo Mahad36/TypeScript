@@ -56,7 +56,15 @@ for(var i=0;i<A_name.length;i++){
     console.log(A_name[i],"join us for dinner, please!")
     }
 console.log("------------------16------------------")
-
+A_name.unshift("Usama")
+let middleIndex=Math.floor(A_name.length/2)
+A_name.splice(middleIndex,0,"Mahad")
+A_name.push("Usman")
+console.log("Good news! We found a bigger dinner table!")
+for(var i=0;i<A_name.length;i++){
+console.log(A_name[i],"join us for dinner, please!")
+}
+console.log("------------------17------------------")
 
 
 
